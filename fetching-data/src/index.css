@@ -1,0 +1,72 @@
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.refreshBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.refreshBtn:hover {
+  background-color: #124714;
+}
+
+.cardWrapper {
+  background-color: lightgoldenrodyellow;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #d3d3d3;
+}
+
+.headerRow {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.headerColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerColumn h1 {
+  margin: 0;
+}
+
+.headerColumn p {
+  margin-top: 10px;
+}
+
+.headerRow img {
+  border-radius: 50%;
+}
+
+.loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video {
+  width: 20%;
+  height: 20%;
+}
