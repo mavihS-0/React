@@ -1,0 +1,117 @@
+.homeWrapper {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchForm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.searchFormColumn {
+  display: flex;
+  gap: 15px;
+}
+
+.searchInput,
+.searchSelect {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchBtn {
+  background-color: #6b6969;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.searchBtn:hover {
+  background-color: #333;
+}
+
+.cardsWrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.detailsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.foodWrapper {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foodWrapper h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.foodWrapper img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.foodWrapper p {
+  margin: 0;
+}
+
+.ingredientsWrapper {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 350px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ingredientsWrapper h2 {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.ingredientsWrapper ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredientsWrapper li {
+  margin-bottom: 8px;
+}

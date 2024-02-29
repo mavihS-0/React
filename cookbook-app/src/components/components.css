@@ -1,0 +1,172 @@
+.navBarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.appNameWrapper a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navBarElements a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+.navBarElements {
+  display: flex;
+}
+
+.navBarElements a:hover {
+  text-decoration: underline;
+}
+.hamburgerMenu {
+  display: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBarElements {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1;
+  }
+
+  .navBarElements.showMenu {
+    display: flex;
+  }
+
+  .navBarElements a {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .hamburgerMenu {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .bar1.menuOpen {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .bar2.menuOpen {
+    opacity: 0;
+  }
+
+  .bar3.menuOpen {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.formWrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70vw;
+}
+
+.usernameWrapper,
+.passwordWrapper {
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.formWrapper input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitBtn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #6b6969;
+}
+
+.cardWrapper {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardWrapper:hover {
+  transform: scale(1.05);
+}
+
+.cardHeading {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.cardWrapper img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.getCardDetailsBtn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.getCardDetailsBtn:hover {
+  background-color: #0056b3;
+}
