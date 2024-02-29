@@ -3,10 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import "./pages.css";
-
 const Home = () => {
-  const apiId = "2a8ef27f";
-  const apiKey = "5669a0c39a38677557177b599f57a4c3";
   const [query, setQuery] = useState("");
   const [selectedMeal, setSelectedMeal] = useState("Breakfast");
   const [recipes, setRecipes] = useState(null);
