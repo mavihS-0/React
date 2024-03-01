@@ -1,6 +1,6 @@
 # Todo App
 
-## Learning about Semantic UI React, contexts and reducers
+## Learning about Semantic UI React, Contexts and Reducers
 
 ### Screenshot:
 
