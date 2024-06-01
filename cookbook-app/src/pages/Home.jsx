@@ -12,7 +12,7 @@ const Home = () => {
   const getData = async (e) => {
     e.preventDefault();
     try {
-      const url = `https://api.edamam.com/search?q=${query}&app_id=${apiId}&app_key=${apiKey}&mealType=${selectedMeal}`;
+      const url = `https://api.edamam.com/search?q=${query}&app_id=0d192fda&app_key=08cfe248947af80a4554049cc7351f7b&mealType=${selectedMeal}`;
       const data = await axios(url);
       setRecipes(data.data.hits);
       console.log(data.data);
