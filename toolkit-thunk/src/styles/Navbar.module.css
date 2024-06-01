@@ -1,0 +1,26 @@
+.navbarWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+.navbarWrapper h1 {
+  cursor: pointer;
+}
+.buttonWrapper button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.buttonWrapper button:hover {
+  transform: scale(1.1);
+}

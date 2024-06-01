@@ -1,0 +1,50 @@
+.card {
+  border: 1px solid #444;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  max-width: 400px;
+  margin: 16px auto;
+  background-color: #1e1e1e;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #444;
+}
+
+.card div {
+  padding: 16px;
+}
+
+.card h3 {
+  margin: 0 0 12px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.card p {
+  color: #bbb;
+  font-size: 1em;
+  margin: 0 0 16px;
+}
+
+.a {
+  text-align: right;
+}
+
+.link {
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
