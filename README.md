@@ -2,8 +2,8 @@
 
 ## Cookbook - Recipe Website
 
-![home](https://cdn.discordapp.com/attachments/1010602676909776949/1212775006677893191/image.png?ex=65f30fbd&is=65e09abd&hm=3ea663fef87ab663aa11c59d55c3d7f2ab5e1bdada6f0d7129f46cb495db4c73&)
+![home](https://cdn.discordapp.com/attachments/1010602676909776949/1246465834352902295/image.png?ex=665c7d45&is=665b2bc5&hm=bb7ff49e04a7a9594b1ceb97b226d420131e47ae1f910013c21660973e1dbb1c&)
 
 ## Todo App
 
-![Todo App Screenshot](https://cdn.discordapp.com/attachments/1010602676909776949/1213205990766415872/image.png?ex=65f4a120&is=65e22c20&hm=da8c5a1fdf579e98cd4b476cddb100519a939caf097b0c5f5af672fa4611dab1&)
+![Todo App Screenshot](https://cdn.discordapp.com/attachments/1010602676909776949/1246464501994356878/image.png?ex=665c7c07&is=665b2a87&hm=148cfa70036b8cc584f38af98c1e54f24db0290a993d6c0993d0768517d9b9a9&)
