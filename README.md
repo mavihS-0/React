@@ -2,8 +2,8 @@
 
 ## Cookbook - Recipe Website
 
-![home](/React/assets/cookbook.png)
+![home](https://raw.githubusercontent.com/mavihS-0/React/master/assets/cookbook.png)
 
 ## Todo App
 
-![Todo App Screenshot](/React/assets/todo.png)
+![Todo App Screenshot](https://raw.githubusercontent.com/mavihS-0/React/master/assets/todo.png)
